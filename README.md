@@ -38,3 +38,9 @@ Start the MLflow server locally. You can do this by running:
 mlflow ui --backend-store-uri mlflow_data_storage
 ```
 This command will start a server that you can view in your browser by navigating to `http://127.0.0.1:5000`.  You can view the metrics and hyperparameters logged by the script in the MLflow UI.
+
+### Step 3: View the Results of the multiple runs
+
+Click on this button to view the metrics progress over time for the multiple runs:
+
+![MLflow Screenshot](mlflow_screenshot.png)
