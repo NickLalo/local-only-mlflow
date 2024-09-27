@@ -1,0 +1,33 @@
+# This file can be used to create a conda environment to run the code to in this project.
+
+# NOTE: these commands assume the _configs directory is in the root of the project.  If it is not, you will need to adjust the paths accordingly.
+# To create the environment, run: (this can take some time to run)
+# 
+#     conda env create -f _config/environment.yml
+#
+# After creating the environment, activate it using:
+#
+#     conda activate local-ml-flow
+#
+# If you need to delete the environment, run:
+#
+#     conda env remove --name local-ml-flow
+#
+# This will set up your environment with the specified dependencies.
+
+name: local-ml-flow
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - jupyter 
+      - ipykernel
+      - notebook
+      - ipywidgets
+      - matplotlib
+      - numpy
+      - tqdm
+      - mlflow

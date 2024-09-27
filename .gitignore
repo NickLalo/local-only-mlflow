@@ -1,0 +1,2 @@
+# ignore the folder where all of the metrics are stored
+mlflow_data_storage/
